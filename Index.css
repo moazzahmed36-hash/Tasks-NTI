@@ -1,0 +1,66 @@
+ * {
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: 0;
+     min-height: 100vh;
+     background-image: url("../Images/Car\ Imae\ 2.jpeg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .Facts {
+     width: 80%;
+     min-height: 80vh;
+     margin: 50px auto;
+     padding: 40px;
+     background-color: rgba(40, 118, 186, 0.8);
+     border-radius: 5%;
+ }
+
+ .content {
+     text-align: center;
+     position: relative;
+     color: aliceblue;
+ }
+
+ .cards {
+     margin-top: 200px;
+     gap: 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .icon {
+     width: 50px;
+     height: 50px;
+ }
+
+ .icon img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+     border-radius: 20%;
+ }
+
+ .card {
+     width: 180px;
+     height: 80px;
+     padding: 10px;
+     background-color: white;
+     border-radius: 5%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .info {
+    display: flex;
+    flex-direction: column;
+}
